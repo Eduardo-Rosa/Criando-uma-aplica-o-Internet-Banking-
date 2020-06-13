@@ -32,8 +32,10 @@ min-height: 100%;
 width: auto;
 height: auto;
 z-index: -1000;
-background: url('https://github.com/daniloagostinho/traning-book/blob/master/src/assets/images/bg_banking.png?raw=true') no-repeat;
+background-image:
+      url("../image/photo-money-bank.jpg");
 background-size: cover;
+background-repeat: none;
 }
 
 btn-home-cadastro-clientes {
@@ -42,7 +44,7 @@ btn-home-cadastro-clientes {
     padding: 20px;
     font-size: 25px;
     width: 40%;
-    background: #000;
+    background: #ddd;
     color: #fff;
     border: 2px solid;
     }
